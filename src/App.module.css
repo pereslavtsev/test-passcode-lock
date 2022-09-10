@@ -1,0 +1,16 @@
+.passcode-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+  background-color: black;
+  height: 100%;
+  color: #fff;
+}
+
+.passcode-app_helper-text {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 12px;
+}

@@ -1,0 +1,38 @@
+.passcode-lock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.passcode-lock_circles {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 70px;
+}
+.passcode-lock_circles__circle {
+  margin: 0 10px;
+}
+.passcode-lock_circles__circle:first-child {
+  margin-left: 0;
+}
+.passcode-lock_circles__circle:last-child {
+  margin-right: 0;
+}
+
+.passcode-lock_buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 235px;
+  flex-wrap: wrap;
+  margin: -5px 0 -5px;
+}
+.passcode-lock_buttons_empty {
+  width: 65px;
+  height: 0;
+  margin: 5px 0;
+}
+.passcode-lock_buttons_button-wrapper {
+  margin: 5px 0;
+}

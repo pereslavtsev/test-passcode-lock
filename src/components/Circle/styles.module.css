@@ -1,0 +1,48 @@
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  transition: all 500ms ease;
+}
+
+.circle__filled {
+  background-color: #fff;
+}
+
+.circle_animation__success {
+  animation: bounceSuccess 500ms ease alternate;
+}
+.circle_animation__failure {
+  animation: bounceFailure 500ms ease alternate;
+}
+
+@keyframes bounceSuccess {
+  33% {
+    transform: translateY(-1px);
+  }
+  50% {
+    background-color: #46be01;
+  }
+  66% {
+    transform: translateY(1px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounceFailure {
+  33% {
+    transform: translateY(-1px);
+  }
+  50% {
+    background-color: #be0101;
+  }
+  66% {
+    transform: translateY(1px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

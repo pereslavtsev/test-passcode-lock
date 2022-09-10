@@ -1,0 +1,22 @@
+.passcode-button-popup {
+  display: flex;
+}
+
+.passcode-button-popup_symbol {
+  border: 1px solid #000;
+  padding: 10px;
+  background-color: #303030;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.passcode-button-popup_symbol:active {
+  background-color: #2a2a2a;
+}

@@ -1,0 +1,51 @@
+.passcode-button_wrapper {
+  position: relative;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  background-color: transparent;
+}
+
+.passcode-button {
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  background-color: #303030;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-direction: column;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.passcode-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.passcode-button:active {
+  background-color: #2a2a2a;
+}
+
+.passcode-button_text {
+  font-size: 24px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.passcode-button_subtext {
+  font-size: 10px;
+  letter-spacing: 2px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
